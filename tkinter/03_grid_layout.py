@@ -76,26 +76,24 @@ btn4.grid(row=1, column=1, padx=10, pady=10)
 # mainloop(): 윈도우를 계속 띄워두고 사용자의 행동을 기다리는 함수
 window.mainloop()
 
-"""
-🎯 연습과제들 (아래 숫자를 바꿔보세요!)
-
-📝 연습과제 1: 버튼 위치 바꿔보기 (격자 배치)
-- btn1.grid(row=0, column=1, padx=10, pady=10)  # 첫 번째 버튼을 오른쪽으로
-- btn2.grid(row=1, column=0, padx=10, pady=10)  # 두 번째 버튼을 아래로
-- btn3.grid(row=0, column=0, padx=10, pady=10)  # 세 번째 버튼을 맨 위로
-
-📝 연습과제 2: 여백(padding) 조정하기
-- padx=20, pady=20  # 더 큰 여백
-- padx=5, pady=5    # 더 작은 여백
-- padx=30, pady=5   # 가로만 큰 여백
-
-📝 연습과제 3: 버튼 색상과 글자 바꿔보기
-- bg="purple", fg="yellow"  # 보라 배경에 노란 글자
-- bg="navy", fg="white"     # 남색 배경에 흰 글자
-- text="새버튼"             # 다른 텍스트로 변경
-
-📝 연습과제 4: 폰트 크기 바꿔보기
-- font=("Arial", 15, "bold")  # 더 큰 글자
-- font=("Arial", 10, "bold")  # 더 작은 글자
-- font=("Arial", 12, "italic") # 기울임 글자
-""" 
+# 🎯 연습과제들 (아래 숫자를 바꿔보세요!)
+#
+# 📝 연습과제 1: 버튼 위치 바꿔보기 (격자 배치)
+# - btn1.grid(row=0, column=1, padx=10, pady=10)  # 첫 번째 버튼을 오른쪽으로
+# - btn2.grid(row=1, column=0, padx=10, pady=10)  # 두 번째 버튼을 아래로
+# - btn3.grid(row=0, column=0, padx=10, pady=10)  # 세 번째 버튼을 맨 위로
+#
+# 📝 연습과제 2: 여백(padding) 조정하기
+# - padx=20, pady=20  # 더 큰 여백
+# - padx=5, pady=5    # 더 작은 여백
+# - padx=30, pady=5   # 가로만 큰 여백
+#
+# 📝 연습과제 3: 버튼 색상과 글자 바꿔보기
+# - bg="purple", fg="yellow"  # 보라 배경에 노란 글자
+# - bg="navy", fg="white"     # 남색 배경에 흰 글자
+# - text="새버튼"             # 다른 텍스트로 변경
+#
+# 📝 연습과제 4: 폰트 크기 바꿔보기
+# - font=("Arial", 15, "bold")  # 더 큰 글자
+# - font=("Arial", 10, "bold")  # 더 작은 글자
+# - font=("Arial", 12, "italic") # 기울임 글자

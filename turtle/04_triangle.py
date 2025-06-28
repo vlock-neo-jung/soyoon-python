@@ -20,4 +20,3 @@ for i in range(3):
 
 print("✅ 첫 번째 삼각형 완성!")
 
-done() 
